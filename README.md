@@ -2,7 +2,11 @@
 
 This repository contains the official implementation of [Learning Lens Blur Fields](https://arxiv.org/abs/2310.11535), published in IEEE TPAMI 2025. This work introduces a high-dimensional neural representation of blur—the lens blur field—and a practical method for acquiring it from real-world camera systems.
 
-If you use this code or find our work useful, please cite our paper:
+![teaser](static/teaser.png)
+
+
+
+**Citation**:
 
 ```bibtex
 @article{lin2025learning,
