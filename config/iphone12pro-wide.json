@@ -1,0 +1,29 @@
+{
+	"loss": {
+		"otype": "RelativeL2"
+	},
+	"optimizer": {
+		"otype": "Adam",
+		"learning_rate": 1e-5,
+		"beta1": 0.5,
+		"beta2": 0.999,
+		"epsilon": 1e-15,
+		"l2_reg": 1e-6,
+		"gamma": 0.98,
+		"update_step": 100000,
+		"iterations": 10000001
+	},
+	"encoding": {
+		"otype": "Identity",
+		"scale": 1.0,
+		"offset": 0.0,
+		"n_frequencies": 0 
+	},
+	"network": {
+		"otype": "CutlassMLP",
+		"activation": "ReLU",
+		"output_activation": "None",
+		"n_neurons": 256,
+		"n_hidden_layers": 5
+	}
+}

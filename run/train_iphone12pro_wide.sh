@@ -1,0 +1,15 @@
+python scripts/train5d.py \
+    --config-path config/iphone12pro-wide.json \
+    --data-path data/processed-iphone12pro-downsampled-4x.npz \
+    --results-path checkpoints/downsample-4x/ \
+    --dims xyuvp \
+    --training-stride 50 \
+    --rendering-stride 50 \
+    --kern-radius 40 \
+    --downsample 0 \
+    --ffs 0 \
+    --leopard-freqs 10 20 50 70 \
+    --mode train \
+    --n-channels 4 \
+    --n-sampling 2 \
+    --log-step 100000 
