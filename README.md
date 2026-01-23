@@ -1,6 +1,6 @@
 # Learning Lens Blur Fields
 
->   **Note:** This branch contains development code that is not yet cleaned up and is very messy.
+>   **Note:** This branch contains development code that is not yet cleaned up. The full project has not been maintained since 2023. 
 >
 >   
 
